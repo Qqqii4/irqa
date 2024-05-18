@@ -1,0 +1,80 @@
+html,body {
+    height: 150%;
+     
+    background-image:linear-gradient(to bottom, rgb(143, 8, 143), black) ;
+      }
+     html, body {
+        margin: 0;
+        padding: 0;
+   
+        
+      }
+      .button {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        padding: 10px 20px;
+        background-color: #6a0dad;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+   
+      .rqa-button {
+        position: fixed; /* تحديد وضعية الزر */
+        top: 8px; /* تحديد المسافة من الأعلى */
+        left: 10px; /* تحديد المسافة من اليسار */
+        font-size: 28px; /* تحديد حجم النص */
+        font-weight: bold; /* جعل النص عريضًا */
+        color: rgba(0, 0, 0, 0.483); /* تحديد لون النص */
+        text-decoration: none; /* إزالة التأثيرات الافتراضية للرابط */
+        z-index: 999; /* تحديد ترتيب الطبقات لضمان ظهور الزر فوق العناصر الأخرى */
+    }
+    
+    .rqa-button:hover {
+        color: rgb(255, 255, 255); /* تغيير لون النص عند التحويم بالماوس */
+        transition: 0.5s;
+    }
+
+
+    
+
+
+
+    .container {
+        display: flex; /* تحديد استخدام تخطيط Flexbox للمستطيلات */
+        flex-wrap: wrap; /* السماح بالتفاف المستطيلات في حالة الحاجة */
+        border-radius: 22PX;
+    }
+    
+    .rectangle {
+        width: calc(70% - 6px); /* تحديد عرض المستطيل بناءً على نصف عرض الصفحة */
+        margin: 30px; /* إضافة هامش خارجي للمستطيلات للتباعد بينها */
+        display: flex; /* استخدام تخطيط Flexbox لتنظيم المستطيلات الداخلية */
+        flex-wrap: wrap; /* السماح بالتفاف المستطيلات الداخلية في حالة الحاجة */
+    margin-bottom: 4PX;
+    border-radius: 20PX;
+    }
+    
+    .large-box {
+        width: 90%; /* تحديد عرض خانة النص الكبيرة */
+        text-align: center; /* محاذاة النص في الوسط */
+        padding: 10px; /* إضافة هامش داخلي للخانة */
+        background-color: rgba(211, 211, 211, 0.759); /* تحديد لون خلفية الخانة */
+        border-radius: 22PX;
+        margin-bottom: 2PX;
+    }
+    
+    .small-box {
+        width: calc(50% - 2px); /* تحديد عرض خانة النص الصغيرة */
+        padding: 2px; /* إضافة هامش داخلي للخانة */
+        background-color: rgba(156, 160, 161, 0.878); /* تحديد لون خلفية الخانة */
+        border-radius: 22PX;
+        margin-bottom: 2PX;
+    }
+    
+    .right-bottom, .left-bottom {
+        align-self: flex-start; /* تحديد موضع الخانة الصغيرة أسفل */
+    }
+    
+    

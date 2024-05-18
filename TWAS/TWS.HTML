@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الاقتراحات</title>
+<LINK REL="stylesheet" href="TS.CSS">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Rakkas&display=swap" rel="stylesheet">
+  
+  <DIV></DIV>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .container {
+        width: 300px;
+    }
+    textarea {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    button {
+        padding: 10px 20px;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        border-radius: 18PX;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2>Contact Us</h2>
+    <textarea id="message" placeholder="انر علينا بتعليقك"></textarea>
+    <button onclick="sendMessage()">Send</button>
+</div>
+<script>
+    function sendMessage() {
+        var message = document.getElementById("message").value;
+        if (message.trim() !== "") {
+            window.location.href = "mailto:OTJ78HFRXVHJ@GMAIL.COM?subject=Message%20from%20Contact%20Form&body=" + encodeURIComponent(message);
+        } else {
+            alert("Please enter a message.");
+        }
+    }
+</script>
+
+
+  
+
+ 
+  <a href="file:///C:/Users/ACER/Desktop/R8A/R8A.HTML" class="button">أحمد</a>
+
+
+
+  <a href="file:///C:/Users/ACER/Desktop/RTA/RTA.HTML#/" class="rqa-button">RQA</a> <!-- استخدام العنصر a كزر رابط -->
+
+
+
+  
+
+
+</body>
+</html>

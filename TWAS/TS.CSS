@@ -1,0 +1,49 @@
+html,body {
+    height: 120%;
+     
+    background-image:linear-gradient(to bottom, rgb(143, 8, 143), black) ;
+      }
+     html, body {
+        margin: 0;
+        padding: 0;
+   
+        
+      }
+  
+    
+  *{
+  margin: 0;
+  padding: 0;
+  
+  }
+  .button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #6a0dad;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .rqa-button {
+    position: fixed; /* تحديد وضعية الزر */
+    top: 8px; /* تحديد المسافة من الأعلى */
+    left: 10px; /* تحديد المسافة من اليسار */
+    font-size: 28px; /* تحديد حجم النص */
+    font-weight: bold; /* جعل النص عريضًا */
+    color: rgba(0, 0, 0, 0.483); /* تحديد لون النص */
+    text-decoration: none; /* إزالة التأثيرات الافتراضية للرابط */
+    z-index: 999; /* تحديد ترتيب الطبقات لضمان ظهور الزر فوق العناصر الأخرى */
+}
+
+.rqa-button:hover {
+    color: rgb(255, 255, 255); /* تغيير لون النص عند التحويم بالماوس */
+    transition: 0.5s;
+}
+
+
+
+
+
